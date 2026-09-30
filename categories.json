@@ -1,0 +1,12 @@
+{
+  "Groceries": ["Dairy", "Produce", "Staples", "Snacks", "Beverages"],
+  "Food": ["Dining Out", "Takeaway", "Delivery", "Cafe"],
+  "Transport": ["Local Travel", "Fuel", "Public Transit", "Taxi", "Vehicle Maintenance"],
+  "Bills": ["Phone", "Electricity", "Water", "Internet", "Gas", "Rent"],
+  "Entertainment": ["Movies", "Streaming", "Games", "Events", "Hobbies"],
+  "Health": ["Medicine", "Doctor Visit", "Fitness", "Insurance"],
+  "Shopping": ["Clothing", "Electronics", "Home", "Personal Care", "Gifts"],
+  "Education": ["Books", "Courses", "Tuition", "Stationery"],
+  "Travel": ["Flights", "Hotels", "Train", "Sightseeing"],
+  "Other": ["Miscellaneous"]
+}
