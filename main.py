@@ -39,7 +39,7 @@ def init_db():  # Keep as sync for initialization
 init_db()
 
 @mcp.tool()
-async def add_expense(date, amount, category, subcategory="", note=""):  # Changed: added async
+async def add_expense_in_db(date, amount, category, subcategory="", note=""):  # Changed: added async
     '''Add a new expense entry to the database.'''
     try:
         async with aiosqlite.connect(DB_PATH) as c:  # Changed: added async
