@@ -42,7 +42,7 @@ def list_expenses(start_date, end_date):
     with sqlite3.connect(DB_PATH) as c:
         cur = c.execute("""SELECT id, date, amount, category, subcategory, note 
                             FROM expenses 
-                            WHERE date BETWEEM ? AND ? 
+                            WHERE date BETWEEN ? AND ? 
                             ORDER BY id ASC""",
                             (start_date, end_date))
         cols = [d[0] for d in cur.description]
